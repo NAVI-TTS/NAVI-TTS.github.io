@@ -201,7 +201,7 @@
                      <div class="row mb-5 mt-6">
                         <div class="row v-centred">
                            <div class="col-md-12">
-                              <h2 class="font-weight-600 mb-0">The NAVI's Text-To-Speech System for<mark>VLSP 2021
+                              <h2 class="font-weight-600 mb-0">The NAVI's Text-To-Speech System for <mark>VLSP 2021
                                  </mark>
                               </h2>
                               <div class="text-rotation">
@@ -224,15 +224,15 @@
                               The Association for Vietnamese Language and Speech Processing (VLSP) has organized a series of workshop with 
                               the aim to bring together researchers and professionals working in NLP and to attempt 
                               a synthesis of research in Vietnamese language. One of the shared task held at the 
-                              eighth workshop is <b>TTS</b> using dataset that only consists of 
+                              eighth workshop is <b>TTS[1]</b> using dataset that only consists of 
                               spontaneous audio. This poses a challenge for current TTS models since they only perform 
                               well constructing reading-style speech (e.g, audiobook). Not only that, the quality of 
                               the audio provided by the dataset has a huge impact on the performance of the model.
                               Specifically, samples with noisy background or with multiple voices speaking at 
                               the same time will deteriorate the performance of our model. In this paper, 
                               we describe our approach to tackle this problem: we first preprocess the training data then use it to train a 
-                              <b>FastSpeech2</b> acoustic model with some replacements in 
-                              external aligner model, finally we use <b>HiFiGAN</b> vocoder to construct the waveform. 
+                              <b>FastSpeech2[3]</b> acoustic model with some replacements in 
+                              external aligner model, finally we use <b>HiFiGAN[2]</b> vocoder to construct the waveform. 
                               According to the official evaluation of VLSP 2021 competition in TTS task, our approach achieves <b>3.729</b> in-domain MOS, 
                               <b>3.557</b> out-of-domain MOS and <b>79.70%</b> SUS score.
                            </p>
@@ -244,35 +244,119 @@
                            <hr class="divider divider-left divider-lg float-left">
                         </div>
                      </div>
-                     <div class="row mb-2">
+                     <div style="margin-top: 15px; margin-bottom: -15px" class="row mb-2">
                         <div class="col">
-                           <p>All of the audio samples use HiFiGAN as vocoder. For all audio samples, the background noise is reduced.</p>
+                           <p><i>Cái này bạn chỉ còn trên bốn tuổi là có thể sử dụng được</i></p>
                         </div>
                      </div>
                      <div class="row justify-content-center">
                         <div class="col-md-12">
-                           <form class="contact-form" method="post" action="https://mutationmedia.net/FOXEVCARD/send.php">
                               <div class="row">
                                  <div class="col-sm-6">                                    
-                                       <p style="text-align:center">GT</p>
+                                       <p>GT</p>
 	                                    <div class="audio">
-	                                       <audio controls="controls" ><source src="../audio/gt_recording_2/0000000004.mp3" autoplay/></audio>
+	                                       <audio controls="controls" ><source src="./assets/audio/602-orig.wav" autoplay/></audio>
                                        </div>                       
                                  </div>
                                  <div class="col-sm-6">
-                                       <p style="text-align:center">Tacotron2</p>
+                                       <p>NAVI's System</p>
                                        <div class="audio">
-	                                       <audio controls="controls" ><source src="../audio/gt_recording_2/0000000004.mp3" autoplay/></audio>
+	                                       <audio controls="controls" ><source src="./assets/audio/602.wav" autoplay/></audio>
                                        </div>
+                                 </div>
+                              </div>                         
+                        </div>
+                     </div>
+                     <div style="margin-top: 15px; margin-bottom: -15px" class="row mb-2">
+                        <div class="col">
+                           <p><i>Cái chất vải sờ vào phải chắc tay không có được lỏng lẻo ọp ẹp</i></p>
+                        </div>
+                     </div>
+                     <div class="row justify-content-center">
+                        <div class="col-md-12">
+                              <div class="row">
+                                 <div class="col-sm-6">                                    
+                                       <p>GT</p>
+	                                    <div class="audio">
+	                                       <audio controls="controls" ><source src="./assets/audio/615_11-orig.wav" autoplay/></audio>
+                                       </div>                       
                                  </div>
                                  <div class="col-sm-6">
-                                       <p style="text-align:center">FastSpeech2</p>
+                                       <p>NAVI's System</p>
                                        <div class="audio">
-	                                       <audio controls="controls" ><source src="../audio/gt_recording_2/0000000004.mp3" autoplay/></audio>
+	                                       <audio controls="controls" ><source src="./assets/audio/615_11.wav" autoplay/></audio>
                                        </div>
                                  </div>
-                              </div>
-                           </form>                           
+                              </div>                         
+                        </div>
+                     </div>
+                     <div style="margin-top: 15px; margin-bottom: -15px" class="row mb-2">
+                        <div class="col">
+                           <p><i>Cái thời đi học của mình nó khá là bi đát mà mình khá là</i></p>
+                        </div>
+                     </div>
+                     <div class="row justify-content-center">
+                        <div class="col-md-12">
+                              <div class="row">
+                                 <div class="col-sm-6">                                    
+                                       <p>GT</p>
+	                                    <div class="audio">
+	                                       <audio controls="controls" ><source src="./assets/audio/1067-orig.wav" autoplay/></audio>
+                                       </div>                       
+                                 </div>
+                                 <div class="col-sm-6">
+                                       <p>NAVI's System</p>
+                                       <div class="audio">
+	                                       <audio controls="controls" ><source src="./assets/audio/1067.wav" autoplay/></audio>
+                                       </div>
+                                 </div>
+                              </div>                         
+                        </div>
+                     </div>
+                     <div style="margin-top: 15px; margin-bottom: -15px" class="row mb-2">
+                        <div class="col">
+                           <p><i>Và đó là quy trình gội đầu vào dưỡng tóc của mình, mình hy vọng là các bạn sẽ khích và nhớ comment cho mình biết</i></p>
+                        </div>
+                     </div>
+                     <div class="row justify-content-center">
+                        <div class="col-md-12">
+                              <div class="row">
+                                 <div class="col-sm-6">                                    
+                                       <p>GT</p>
+	                                    <div class="audio">
+	                                       <audio controls="controls" ><source src="./assets/audio/1516-orig.wav" autoplay/></audio>
+                                       </div>                       
+                                 </div>
+                                 <div class="col-sm-6">
+                                       <p>NAVI's System</p>
+                                       <div class="audio">
+	                                       <audio controls="controls" ><source src="./assets/audio/1516.wav" autoplay/></audio>
+                                       </div>
+                                 </div>
+                              </div>                         
+                        </div>
+                     </div>
+                     <div style="margin-top: 15px; margin-bottom: -15px" class="row mb-2">
+                        <div class="col">
+                           <p><i>Nếu như bây giờ, nếu mà mình phải bắc ghế lên thì mình phải ra mình lấy cái ghế nhựa đúng không, không</i></p>
+                        </div>
+                     </div>
+                     <div class="row justify-content-center">
+                        <div class="col-md-12">
+                              <div class="row">
+                                 <div class="col-sm-6">                                    
+                                       <p>GT</p>
+	                                    <div class="audio">
+	                                       <audio controls="controls" ><source src="./assets/audio/3757-orig.wav" autoplay/></audio>
+                                       </div>                       
+                                 </div>
+                                 <div class="col-sm-6">
+                                       <p>NAVI's System</p>
+                                       <div class="audio">
+	                                       <audio controls="controls" ><source src="./assets/audio/3757.wav" autoplay/></audio>
+                                       </div>
+                                 </div>
+                              </div>                         
                         </div>
                      </div>
                      <div class="row mb-5 mt-6">
@@ -286,21 +370,33 @@
                            <div class="timeline">
                               <div class="timeline-content">
                                  <div class="mb-1">
-                                    <h6 class="font-weight-600 font-size-15 mb-1">Reference 1</h6>
-                                    <div class="font-size-13 text-alt mb-1"><span class="fa fa-calendar mr-2 text-muted"></span>Time 1</div>
+                                    <h6 class="font-weight-400 font-size-15 mb-1">
+                                       <a href="https://vlsp.org.vn/vlsp2021/guidelines">Trang N.T.T Ky N.H. (2022). TTS Shared Task
+                                          VLSP 2021: </br>Spontaneous Speech Synthesis for
+                                          Vietnamese. VNU Journal of Science Computer
+                                          Science and Communication Engineering.</a>
+                                    </h6>
+                                    <div class="font-size-13 text-alt mb-1"></div>
                                  </div>
-                                 <p class=" mb-0">
-                                    Text 1
-                                 </p>
                               </div>
                               <div class="timeline-content">
                                  <div class="mb-1">
-                                    <h6 class="font-weight-600 font-size-15 mb-1">Reference 2</h6>
-                                    <div class="font-size-13 text-alt mb-1"><span class="fa fa-calendar mr-2 text-muted"></span>Time 2</div>
+                                    <h6 class="font-weight-400 font-size-15 mb-1">
+                                       <a href="https://arxiv.org/abs/2010.05646">Jungil Kong, Jaehyeon Kim, and Jaekyoung Bae.</br>
+                                          Hifi-gan: Generative adversarial networks for
+                                          efficient and high fidelity speech synthesis, 2020.</a>
+                                    </h6>
                                  </div>
-                                 <p class=" mb-0">
-                                    Text 2
-                                 </p>
+                              </div>
+                              <div class="timeline-content">
+                                 <div class="mb-1">
+                                    <h6 class="font-weight-400 font-size-15 mb-1">
+                                       <a href="https://arxiv.org/abs/2006.04558">Yi Ren, Chenxu Hu, Xu Tan, Tao Qin, Sheng
+                                          Zhao, Zhou Zhao, and Tie-Yan Liu. </br>Fastspeech 2:
+                                          Fast and high-quality end-to-end text to speech,
+                                          2021.</a>
+                                    </h6>
+                                 </div>
                               </div>
                            </div>
                         </div>
@@ -313,7 +409,7 @@
                      <header class="shadow bg-light radius-2 px-4 py-6 text-center ">
                         <div class="profile-image">
                            <div class="profile-image-border">
-                              <img class="rounded-circle" src="assets/img/avatar/5.jpeg" alt="/">
+                              <img class="rounded-circle" src="assets/img/NAVI.png" alt="/">
                            </div>
                         </div>
                         <div class="mt-4 mb-5">
