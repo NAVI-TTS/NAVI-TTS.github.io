@@ -593,9 +593,6 @@ a,::before
 p{
   font-size: 0.9375rem;
 }
-#audio {
-  vertical-align: center;
-}
 .font-size-9 {
     font-size: 0.65rem;
     overflow: hidden;
