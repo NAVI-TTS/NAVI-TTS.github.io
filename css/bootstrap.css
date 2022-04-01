@@ -394,6 +394,8 @@ h6, .h6 {
 audio {
   display: inline-block;
   vertical-align: baseline;
+  max-width:100%;
+  justify-content: center;
 }
 .lead {
   font-size: 1.15rem;
