@@ -14,5 +14,19 @@ use HiFiGAN [4] vocoder to construct the waveform. According to the official eva
 2021 competition in the TTS task, our approach achieves 3.729 in-domain MOS, 3.557 out-ofdomain MOS, and 79.70% SUS score. Audio samples are available at https://navi-tts.github.io/.
 Keywords: VLSP-2021, Spontaneous, Text-to-speech.
 
+<table style="width:100%">
+  <tr>
+    <td><img src="./assets/img/preprocessing.jpg" alt="preprocessing" height="200"></td>
+    <td><img src="/assets/img/acoustic_model.jpg" alt="acoustic_model" height="200"></td>
+    <td><img src="/assets/img/vocoder.jpg" alt="vocoder" height="200"></td>
+  </tr>
+  <tr>
+    <th>Preprocessing</th>
+    <th>Acoustic Model</th>
+    <th>Vocoder</th>
+  </tr>
+</table>
+
+
 # Paper
 [TTS - VLSP 2021: The NAVI’s Text-To-Speech System for Vietnamese](https://jcsce.vnu.edu.vn/index.php/jcsce/article/view/347)
