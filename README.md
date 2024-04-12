@@ -16,9 +16,9 @@ Keywords: VLSP-2021, Spontaneous, Text-to-speech.
 
 <table style="width:100%">
   <tr>
-    <td><img src="./assets/img/preprocessing.jpg" alt="preprocessing" height="200"></td>
-    <td><img src="/assets/img/acoustic_model.jpg" alt="acoustic_model" height="200"></td>
-    <td><img src="/assets/img/vocoder.jpg" alt="vocoder" height="200"></td>
+    <td><img src="./assets/img/preprocessing.jpg" alt="preprocessing" width="300"></td>
+    <td><img src="/assets/img/acoustic_model.jpg" alt="acoustic_model" width="300"></td>
+    <td><img src="/assets/img/vocoder.jpg" alt="vocoder" width="300"></td>
   </tr>
   <tr>
     <th>Preprocessing</th>
