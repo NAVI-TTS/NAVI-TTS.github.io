@@ -1,4 +1,4 @@
-# TTS - VLSP 2021: The NAVI’s Text-To-Speech System for Vietnamese
+# TTS - VLSP 2021: The NAVI’s 1st ranking Text-To-Speech System for Vietnamese
 
 **Abstract**: The Association for Vietnamese Language and Speech Processing (VLSP) has organized
 a series of workshops intending to bring together researchers and professionals working in NLP and
@@ -28,5 +28,5 @@ Keywords: VLSP-2021, Spontaneous, Text-to-speech.
 </table>
 
 
-# Paper
+# Publication
 [TTS - VLSP 2021: The NAVI’s Text-To-Speech System for Vietnamese](https://jcsce.vnu.edu.vn/index.php/jcsce/article/view/347)
